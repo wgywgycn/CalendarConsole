@@ -4,6 +4,9 @@ using System.Linq;
 
 namespace CalendarConsole
 {
+    /// <summary>
+    /// 多个时间的事件
+    /// </summary>
     public class MultiEvent : EventBase
     {
         public List<DateTime> EventTimes { get; set; }

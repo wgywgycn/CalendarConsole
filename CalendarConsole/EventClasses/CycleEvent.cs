@@ -2,6 +2,9 @@
 
 namespace CalendarConsole
 {
+    /// <summary>
+    /// 会循环的事件
+    /// </summary>
     public class CycleEvent : EventBase
     {
         //TODO:
